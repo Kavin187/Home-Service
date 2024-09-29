@@ -33,7 +33,7 @@ conn.commit()
 # Input form
 st.title("Registration Form")
 
-name = st.text_input("Enter your")
+name = st.text_input("Enter your Name")
 age = st.number_input("Enter your age", min_value=0, max_value=120, step=1)
 phone_number = st.text_input("Enter your phone number")
 email = st.text_input("Enter your email")
